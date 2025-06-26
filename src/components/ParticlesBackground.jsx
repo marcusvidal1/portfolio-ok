@@ -26,7 +26,7 @@ const ParticlesBackground = () => {
           fullScreen: { enable: true, zIndex: 0 },
           particles: {
             number: {
-              value: isMobile ? 20 : 25,
+              value: isMobile ? 100 : 25,
               density: {
                 enable: true,
                 value_area: 800,
@@ -37,7 +37,7 @@ const ParticlesBackground = () => {
             },
             links: {
               color: "#00aaff",
-              distance: 150,
+              distance: 120,
               enable: true,
               opacity: 0.3,
               width: 1,
@@ -54,7 +54,7 @@ const ParticlesBackground = () => {
             },
             move: {
               enable: true,
-              speed: isMobile ? 0.1 : 0.2,
+              speed: isMobile ? 0.2 : 0.2,
               direction: "none",
               outModes: {
                 default: "out",

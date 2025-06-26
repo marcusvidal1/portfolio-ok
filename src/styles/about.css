@@ -38,6 +38,8 @@
 }
 
 .about-image {
+  z-index: 1;
+  position: relative;
   width: clamp(300px, 40vw, 400px);
   border-radius: 12px;
 }
