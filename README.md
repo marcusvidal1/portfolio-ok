@@ -1,12 +1,69 @@
-# React + Vite
+# 💼 Portfolio React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Meu portfólio pessoal desenvolvido em **React.js** com **Vite**, focado em performance, responsividade e apresentação clara dos projetos.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tecnologias utilizadas
 
-## Expanding the ESLint configuration
+- React.js  
+- Vite  
+- CSS modularizado  
+- JavaScript (ES6+)  
+- Vercel (Deploy)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📂 Estrutura do projeto
+
+📁 portfolio-ok/  
+├── 📁 public/ → arquivos estáticos  
+├── 📁 src/  
+│   ├── 📁 components/ → componentes reutilizáveis  
+│   ├── 📁 styles/ → estilos por seção  
+│   ├── 📁 assets/ → imagens e ícones  
+│   ├── 📄 App.jsx  
+│   └── 📄 main.jsx  
+├── 📄 .gitignore  
+├── 📄 package.json  
+├── 📄 vite.config.js  
+└── 📄 README.md
+
+---
+
+## ⚙️ Scripts
+
+```bash
+npm install       # instalar dependências
+npm run dev       # ambiente de desenvolvimento
+npm run build     # build de produção
+npm run preview   # pré-visualização local
+```
+
+---
+
+## 📱 Responsividade
+
+- Compatível com celular e tablet  
+- Layout com padding controlado  
+- Evita rolagem lateral  
+- Carrossel de projetos adaptável
+
+---
+
+## 🌐 Deploy
+
+🔗 https://marcus-vidal.vercel.app/
+
+---
+
+## 📄 Licença
+
+MIT
+
+---
+
+## 🙋‍♂️ Autor
+
+Marcus Vidal  
+GitHub: [@marcusvidal1](https://github.com/marcusvidal1)
