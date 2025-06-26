@@ -1,0 +1,19 @@
+.mascot-container {
+  position: absolute;
+  bottom: clamp(10px, 2vh, 20px);
+  right: clamp(10px, 2vw, 20px); 
+  cursor: pointer;
+  z-index: 5;
+}
+
+.sprite {
+  background-repeat: no-repeat;
+  image-rendering: pixelated;
+}
+
+@media (max-width: 768px) {
+  .mascot-container {
+    right: clamp(5px, 1vw, 10px);
+    bottom: clamp(68px, 1vh, 10px);
+  }
+}
