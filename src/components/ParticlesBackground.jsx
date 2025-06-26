@@ -26,7 +26,7 @@ const ParticlesBackground = () => {
           fullScreen: { enable: true, zIndex: 0 },
           particles: {
             number: {
-              value: isMobile ? 100 : 60,
+              value: isMobile ? 115 : 60,
               density: {
                 enable: true,
                 value_area: 800,
