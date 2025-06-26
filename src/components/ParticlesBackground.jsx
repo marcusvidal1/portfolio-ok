@@ -19,55 +19,51 @@ const ParticlesBackground = () => {
 
   return (
     <div className="particles-wrapper">
-      {isMobile ? (
-        <div className="particles-fallback" style={{ backgroundColor: 'var(--cor-fundo)' }} />
-      ) : (
-        <Particles
-          id="tsparticles"
-          init={particlesInit}
-          options={{
-            fullScreen: { enable: true, zIndex: 0 },
-            particles: {
-              number: {
-                value: 10,
-                density: {
-                  enable: true,
-                  value_area: 800,
-                },
-              },
-              color: {
-                value: "#00aaff",
-              },
-              links: {
-                color: "#00aaff",
-                distance: 150,
+      <Particles
+        id="tsparticles"
+        init={particlesInit}
+        options={{
+          fullScreen: { enable: true, zIndex: 0 },
+          particles: {
+            number: {
+              value: isMobile ? 20 : 25,
+              density: {
                 enable: true,
-                opacity: 0.3,
-                width: 1,
-              },
-              shape: {
-                type: "circle",
-              },
-              opacity: {
-                value: 0.4,
-                random: true,
-              },
-              size: {
-                value: { min: 1, max: 3 },
-              },
-              move: {
-                enable: true,
-                speed: 0.2,
-                direction: "none",
-                outModes: {
-                  default: "out",
-                },
+                value_area: 800,
               },
             },
-          }}
-        />
-      )}
-      {!isLoaded && !isMobile && (
+            color: {
+              value: "#00aaff",
+            },
+            links: {
+              color: "#00aaff",
+              distance: 150,
+              enable: true,
+              opacity: 0.3,
+              width: 1,
+            },
+            shape: {
+              type: "circle",
+            },
+            opacity: {
+              value: 0.4,
+              random: true,
+            },
+            size: {
+              value: { min: 1, max: 3 },
+            },
+            move: {
+              enable: true,
+              speed: isMobile ? 0.1 : 0.2,
+              direction: "none",
+              outModes: {
+                default: "out",
+              },
+            },
+          },
+        }}
+      />
+      {!isLoaded && (
         <div className="particles-fallback" style={{ backgroundColor: 'var(--cor-fundo)' }} />
       )}
     </div>

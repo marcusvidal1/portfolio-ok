@@ -37,6 +37,8 @@
 }
 
 .botao {
+  position: relative;
+  z-index: 2;
   padding: clamp(10px, 2vw, 12px) clamp(20px, 4vw, 24px);
   background-color: var(--cor-destaque);
   color: var(--cor-fundo);
@@ -51,6 +53,8 @@
 }
 
 .imagem-inicial img {
+  z-index: 1;
+  position: relative;
   width: clamp(250px, 30vw, 400px);
   max-width: 100%;
 }
