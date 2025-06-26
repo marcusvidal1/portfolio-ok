@@ -10,6 +10,18 @@
   margin-bottom: clamp(60px, 10vh, 100px);
 }
 
+.section-title::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 4px;
+  width: 40px;
+  background: linear-gradient(to right, var(--cor-destaque), transparent);
+  border-radius: 2px;
+}
+
 .projects-carousel {
   display: flex;
   align-items: center;
@@ -140,5 +152,5 @@
 }
 
 .projects-section {
- padding: 100px clamp(5%, 5vw, 10%)
+ padding: 115px clamp(5%, 5vw, 10%)
 }

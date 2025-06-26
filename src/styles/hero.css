@@ -63,11 +63,12 @@
   .inicio {
     flex-direction: column;
     padding: clamp(20px, 5vw, 60px);
+    
     gap:60px
   }
 
   .imagem-inicial img {
-    width: clamp(200px, 50vw, 250px);
+    width: 250px;
   }
 }
 

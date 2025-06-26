@@ -84,7 +84,7 @@
 
 @media (max-width: 768px) {
   .skills {
-    padding: 100px clamp(5%, 5vw, 10%)
+    padding: 115px clamp(5%, 5vw, 10%)
   }
 
   .skill-card {
