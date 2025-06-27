@@ -1,4 +1,5 @@
 .about {
+  padding: 100px;
   background-color: var(--cor-fundo);
   display: flex;
   flex-direction: column;
