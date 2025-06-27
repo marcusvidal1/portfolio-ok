@@ -6,20 +6,6 @@ export const socialLinks = {
 
 export const projects = [
   {
-    title: "Game Library",
-    description: "Aplicação em React que consome a API RAWG.",
-    icon: "iconGameLibrary",
-    github: "https://github.com/marcusvidal1/game-library",
-    site: "https://game-library.vercel.app",
-  },
-  {
-    title: "Secret Number",
-    description: "Jogo em HTML, CSS e JS para treinar lógica.",
-    icon: "iconSecretNumber",
-    github: "https://github.com/marcusvidal1/secret-number-2",
-    site: "https://secret-number-2.vercel.app",
-  },
-  {
     title: "Focus Timer",
     description: "Timer Pomodoro feito com HTML, CSS e JS.",
     icon: "iconFocusTimer",
@@ -32,5 +18,20 @@ export const projects = [
     icon: "iconPresente",
     github: "https://github.com/marcusvidal1/Presente-para-Casal",
     site: "https://taupe-fairy-cb5deb.netlify.app",
+  },
+  {
+    title: "Secret Number",
+    description: "Jogo em HTML, CSS e JS para treinar lógica.",
+    icon: "iconSecretNumber",
+    github: "https://github.com/marcusvidal1/secret-number-2",
+    site: "https://secret-number-2.vercel.app",
+
+  },
+  {
+    title: "Game Library",
+    description: "Aplicação em React que consome a API RAWG.",
+    icon: "iconGameLibrary",
+    github: "https://github.com/marcusvidal1/game-library",
+    site: "https://game-library.vercel.app",
   },
 ];
